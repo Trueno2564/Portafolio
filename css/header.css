@@ -1,6 +1,11 @@
 .header{
     display: flex;
     justify-content: space-between;
+    margin: 0 10rem;
+}
+
+.nombre{
+    font-size: 1rem;
 }
 
 .logo__nombre{
@@ -10,7 +15,7 @@
 }
 
 .logo{
-    width: 3.5rem;
+    width: 2rem;
     margin-right: 1.5rem;
 }
 
@@ -19,6 +24,14 @@
 }
 
 .menu__item{
+    list-style: none;
+}
+
+.menu__item:nth-child(6){
+    font-weight: bold;
+}
+
+.menu__link{
     text-decoration: none;
-    
+    margin-right: 1.75rem;
 }

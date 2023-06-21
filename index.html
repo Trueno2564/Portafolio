@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brian Regalado</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/presentacion.css">
+    <link rel="stylesheet" href="css/sobre-mi.css">
+    <link rel="stylesheet" href="css/skills-hobbies.css">
 </head>
 <body>
     <header class="header">
@@ -14,13 +19,104 @@
             <h1 class="nombre">Brian Regalado</h1>
         </div>
         <ul class="menu">
-            <li class="menu__item"><a href="">Sobre mi</a></li>
-            <li class="menu__item"><a href="">Skills</a></li>
-            <li class="menu__item"><a href="">Hobbies</a></li>
-            <li class="menu__item"><a href="">Formacion</a></li>
-            <li class="menu__item"><a href="">Proyectos</a></li>
-            <li class="menu__item"><a href="">Contacto</a></li>
+            <li class="menu__item"><a class="menu__link" href="">Sobre mi</a></li>
+            <li class="menu__item"><a class="menu__link" href="">Skills</a></li>
+            <li class="menu__item"><a class="menu__link" href="">Hobbies</a></li>
+            <li class="menu__item"><a class="menu__link" href="">Formacion</a></li>
+            <li class="menu__item"><a class="menu__link" href="">Proyectos</a></li>
+            <li class="menu__item"><a class="menu__link" href="">Contacto</a></li>
         </ul>
     </header>
+    <section class="presentacion">
+        <div class="description">
+            <h2 class="titulo">Hola, mi nombre es Brian Regalado, soy Ingeniero Mecatronico y desarrollador Front End</h2>
+            <p class="resumen">Soy formado como ingeniero mecatronico en la Universidad Mariana de Pasto Colombia y actualmente estoy participando del proyecto Oracle ONE en Alura Latam especializando en Front End</p>
+            <ul class="enlaces">
+                <li class="enlaces__item"><a class="enlaces__link" href="https://github.com/Trueno2564" target="_blank">Github <span class="material-symbols-outlined">
+                    arrow_outward</span></a></li>
+                <li class="enlaces__item"><a class="enlaces__link" href="https://www.linkedin.com/in/brianregalado/" target="_blank">Linkedin <span class="material-symbols-outlined">
+                    arrow_outward</span></a></li>
+                <li class="enlaces__item"><a class="enlaces__link" href="https://www.instagram.com/briian___r/" target="_blank">Instagram  <span class="material-symbols-outlined">
+                    arrow_outward</span></a></li>
+                <li class="enlaces__item"><a class="enlaces__link" href="" target="_blank">Curriculo <span class="material-symbols-outlined">
+                    arrow_outward</span></a></li>
+            </ul>
+        </div>
+        <img src="media/foto.jpg" alt="" class="foto">
+    </section>
+    <section class="sobre__mi">
+        <h3 class="sobre__mi__titulo">Sobre mi</h3>
+        <p class="sobre__mi__texto">Soy un ingeniero en Mecatrónica con experiencia en el campo de: Diseño y modelado CAD con programas como Autodesk Inventor y Autodesk AutoCAD, en diseño y desarrollo de placas electrónicas con programas como , Eagle y Fusión 360, en programación de Arduino, ESP32, ESP8266, PIC entre otros microcontroladores, desarrollo FrontEnd con HTML, CSS y JavaScript, también poseo conocimientos básicos en Photoshop e Illustrator. Durante mi carrera, he tenido la oportunidad de trabajar en varios proyectos relacionados y he desarrollado habilidades técnicas que me permiten resolver problemas y tomar decisiones de manera efectiva. <br><br> Siempre me ha apasionado la tecnología y el desarrollo de soluciones innovadoras. Esto me ha llevado a participar en proyectos de investigación y desarrollo, lo que me ha permitido adquirir un conocimiento profundo y actualizado en mi campo de especialización.</p>
+        <img src="media/firma.png" alt="firma" class="firma">
+    </section>
+    <section class="skills__hobbies">
+        <div class="tarjetas">
+            <h3 class="skills__hobbies__titulo">Skills</h3>
+            <ul class="skills__hobbies__list">
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-html.svg" alt="" class="skills__hobbies__logo">
+                    <p>HTML 5</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-javascript.svg" alt="" class="skills__hobbies__logo">
+                    <p>JavaScript</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-php.svg" alt="" class="skills__hobbies__logo">
+                    <p>PHP</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-nodejs.svg" alt="" class="skills__hobbies__logo">
+                    <p>Node JS</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-reaccionar.svg" alt="" class="skills__hobbies__logo">
+                    <p>React</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-css.svg" alt="" class="skills__hobbies__logo">
+                    <p>CSS</p>
+                </li>
+            </ul>
+        </div>
+        <div class="tarjetas">
+            <h3 class="skills__hobbies__titulo">Hobbies</h3>
+            <ul class="skills__hobbies__list">
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-estadio-26.png" alt="" class="skills__hobbies__logo">
+                    <p>Futbol</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-videojuego-50.png" alt="" class="skills__hobbies__logo">
+                    <p>Videojuegos</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-música-32.png" alt="" class="skills__hobbies__logo">
+                    <p>Escuchar musica</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-televisión-24.png" alt="" class="skills__hobbies__logo">
+                    <p>Ver series</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-cubiertos-50.png" alt="" class="skills__hobbies__logo">
+                    <p>Cocinar</p>
+                </li>
+                <li class="skills__hobbies__item">
+                    <img src="media/icons8-cámara-con-trípode-50.png" alt="" class="skills__hobbies__logo">
+                    <p>Tomar fotos</p>
+                </li>
+            </ul>
+        </div>
+    </section>
 </body>
+<style>
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+    }
+    </style>
 </html>

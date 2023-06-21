@@ -1,0 +1,39 @@
+.skills__hobbies{
+    margin: 0 10rem;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.skills__hobbies__titulo{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.skills__hobbies__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.skills__hobbies__item{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 8rem;
+    height: 10rem;
+    background-color: #ffffff;
+    justify-content: end;
+    border-radius: 5px;
+    padding: 0 0 0 .5rem;
+}
+
+.skills__hobbies__logo{
+    width: 2rem;
+}

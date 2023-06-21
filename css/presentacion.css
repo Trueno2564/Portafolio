@@ -1,0 +1,41 @@
+.presentacion{
+    display: flex;
+    padding: 3rem 0;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;margin: 0 10rem;
+}
+
+.titulo{
+    font-size: 2.5rem;
+}
+
+.resumen{
+    margin: 1.75rem 0;
+    font-size: 1.25rem;
+}
+
+.description{
+    width: 70%;
+    margin-right: 2.5rem;
+}
+
+.enlaces{
+    display: flex;
+}
+
+.enlaces__item{
+    margin-right: 1.75rem;
+    list-style: none;
+}
+
+.enlaces__link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.foto{
+    width: 30%;
+    border-radius: 100%;
+}
