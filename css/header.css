@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__nombre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    width: 3.5rem;
+    margin-right: 1.5rem;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu__item{
+    text-decoration: none;
+    
+}
