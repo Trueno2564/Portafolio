@@ -1,0 +1,43 @@
+.formacion{
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 0 2.5rem;
+}
+
+.formacion__lista{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formacion__logo{
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.formacion__logo__img{
+    width: 20rem;
+    flex-shrink: 0;
+    margin: 2rem;
+}
+
+.formacion__item{
+    list-style: none;
+    margin: .5rem;
+}
+
+.formacion__titulo{
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
