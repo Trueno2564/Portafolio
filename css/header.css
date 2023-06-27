@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 0 10rem;
+    width: 100%;
 }
 
 .nombre{
@@ -16,22 +16,73 @@
 
 .logo{
     width: 2rem;
-    margin-right: 1.5rem;
+    margin: 0 1.5rem 0 8rem;
 }
 
 .menu{
     display: flex;
+    margin: 1.5rem 8rem;
 }
 
 .menu__item{
     list-style: none;
+    margin-right: 1.75rem;
 }
 
 .menu__item:nth-child(6){
     font-weight: bold;
+    margin-right: 0rem;
 }
 
 .menu__link{
     text-decoration: none;
-    margin-right: 1.75rem;
+    
+}
+
+@media (min-width: 768px) and (max-width: 1180px){
+    .logo{
+        margin: 0 1.5rem 0 2rem;
+    }
+    .menu{
+        margin: 1.5rem 1rem;
+    }
+    .menu__item:nth-child(1){
+        display: none;
+    }
+    .menu__item:nth-child(2){
+        display: none;
+    }
+    .menu__item:nth-child(3){
+        display: none;
+    }
+    .menu__item:nth-child(4){
+        display: none;
+    }
+    .menu__item:nth-child(5){
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .logo{
+        margin: 0 .75rem 0 1rem;
+    }
+    .menu{
+        margin: 1.5rem 1rem;
+    }
+    .menu__item:nth-child(1){
+        display: none;
+    }
+    .menu__item:nth-child(2){
+        display: none;
+    }
+    .menu__item:nth-child(3){
+        display: none;
+    }
+    .menu__item:nth-child(4){
+        display: none;
+    }
+    .menu__item:nth-child(5){
+        display: none;
+    }
 }

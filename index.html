@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="css/sobre-mi.css">
     <link rel="stylesheet" href="css/skills-hobbies.css">
     <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/experiencia.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header class="header">
@@ -25,13 +28,13 @@
             <li class="menu__item"><a class="menu__link" href="">Hobbies</a></li>
             <li class="menu__item"><a class="menu__link" href="">Formacion</a></li>
             <li class="menu__item"><a class="menu__link" href="">Proyectos</a></li>
-            <li class="menu__item"><a class="menu__link" href="">brianregalado2564@gmail.com</a></li>
+            <li class="menu__item"><a class="menu__link" href="">brianregalado2564@gmail</a></li>
         </ul>
     </header>
     <section class="presentacion">
         <div class="description">
             <h2 class="titulo">Hola, mi nombre es Brian Regalado, soy Ingeniero Mecatronico y desarrollador Front End</h2>
-            <p class="resumen">Soy formado como ingeniero mecatronico en la Universidad Mariana de Pasto Colombia y actualmente estoy participando del proyecto Oracle ONE en Alura Latam especializando en Front End</p>
+            <p class="resumen">Soy formado como ingeniero mecatronico en la Universidad Mariana de Pasto Colombia y actualmente estoy participando del proyecto Oracle ONE en Alura Latam especializado en Front End</p>
             <ul class="enlaces">
                 <li class="enlaces__item"><a class="enlaces__link" href="https://github.com/Trueno2564" target="_blank">Github <span class="material-symbols-outlined">
                     arrow_outward</span></a></li>
@@ -111,38 +114,95 @@
         </div>
     </section>
     <section class="formacion">
-        <h3 class="formacion__titulo">Formacion Academica</h3>
-        <ul class="formacion__lista">
-            <li class="formacion__item">
-                <div class="formacion__logo">
-                    <img src="media/umariana-logo.png" alt="Universidad Mariana" class="formacion__logo__img">
+        <div class="formacion__contenedor">
+            <h3 class="formacion__titulo">Formacion Academica</h3>
+            <div class="formacion__lista">
+                <div class="formacion__item">
+                    <div class="formacion__logo">
+                        <img src="media/umariana-logo.png" alt="Universidad Mariana" class="formacion__logo__img">
+                    </div>
+                    <p class="formacion__item__titulo">Ingeniero Mecatronico</p>
+                    <p class="formacion__item__descripcion">2023 - Universidad Mariana</p>
                 </div>
-                <p>Ingeniero Mecatronico</p>
-                <p>2023 - Universidad Mariana</p>
-            </li>
-            <li class="formacion__item">
-                <div class="formacion__logo">
-                    <img src="media/udemy-logo.png" alt="Udemy" class="formacion__logo__img">
+                <div class="formacion__item">
+                    <div class="formacion__logo">
+                        <img src="media/udemy logo.png" alt="Udemy" class="formacion__logo__img">
+                    </div>
+                    <p class="formacion__item__titulo">Master en JavaScript</p>
+                    <p class="formacion__item__descripcion">2022 - Udemy</p>
                 </div>
-                <p>Master en JavaScript</p>
-                <p>2022 - Udemy</p>
-            </li>
-            <li class="formacion__item">
-                <div class="formacion__logo">
-                    <img src="media/udemy-logo.png" alt="Udemy" class="formacion__logo__img">
+                <div class="formacion__item">
+                    <div class="formacion__logo">
+                        <img src="media/udemy logo.png" alt="Udemy" class="formacion__logo__img">
+                    </div>
+                    <p class="formacion__item__titulo">Marketing Digital</p>
+                    <p class="formacion__item__descripcion">2023 - Udemy</p>
                 </div>
-                <p>Marketing Digital</p>
-                <p>2023 - Udemy</p>
-            </li>
-            <li class="formacion__item">
-                <div class="formacion__logo">
-                    <img src="media/udemy-logo.png" alt="Udemy" class="formacion__logo__img">
-                </div>
-                <p>Marketing Digital</p>
-                <p>2023 - Udemy</p>
-            </li>
-        </ul>
+            </div>
+        </div>
     </section>
+    <section class="experiencia">
+        <h3 class="experiencia__titulo">Experiencia profesional</h3>
+        <div class="experiencia__item">
+            <img src="media/Prototipo.png" alt="Rehabilitador de tobillo" class="experiencia__imagen">
+            <div class="experiencia__descripcion">
+                <p class="experiencia__texto__1">Rehabilitador de tobillo</p>
+                <p class="experiencia__texto__2">Universidad Mariana</p>
+                <a class="boton" href="#">Repositorio</a>
+            </div>
+        </div>
+        <div class="experiencia__item__2">
+            <img src="media/encriptador.png" alt="Rehabilitador de tobillo" class="experiencia__imagen">
+            <div class="experiencia__descripcion">
+                <p class="experiencia__texto__1">Encriptador de texto</p>
+                <p class="experiencia__texto__2">Challenge Alura Codificador</p>
+                <div class="botones">
+                    <a class="boton" href="#">Ver demo</a>
+                    <a class="boton" href="#">Repositorio</a>
+                </div>
+            </div>
+        </div>
+        <div class="experiencia__item">
+            <img src="media/NAS.png" alt="Rehabilitador de tobillo" class="experiencia__imagen">
+            <div class="experiencia__descripcion">
+                <p class="experiencia__texto__1">Prototipo NAS</p>
+                <p class="experiencia__texto__2">Workana</p>
+                <a class="boton" href="#">Repositorio</a>
+            </div>
+        </div>
+    </section>
+    <section class="contacto">
+        <div class="contacto__contenedor">
+            <img src="media/pexels-negative-space-33999-scaled-2560x1280.jpg" alt="" class="contacto__imagen">
+        <form action="" class="contacto__fomulario">
+            <p class="contacto__fomulario__titulo">Contacto</p>
+            <p class="contacto__fomulario__texto">¿Quieres contactarme? <br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+            <div class="contacto__nombre">
+                <label for="formulario__nombre">Nombre</label>
+                <input type="text" class="formulario__nombre">
+            </div>
+            <div class="contacto__email">
+                <label for="formulario__nombre">Email</label>
+                <input type="email" class="formulario__email">
+            </div>
+            <div class="contacto__asunto">
+                <label for="formulario__nombre">Asunto</label>
+                <input type="text" class="formulario__asunto">
+            </div>
+            <div class="contacto__mensaje">
+                <label for="formulario__mensaje">Mensaje</label>
+                <textarea class="formulario__mensaje" name="" id="" cols="30" rows="10" ></textarea>
+            </div>
+            <div class="boton formulario__boton">
+                <p>Enviar mensaje</p>
+            </div>
+        </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__texto">Desarrollado por Brian Regalado</p>
+        <p class="footer__texto">2023</p>
+    </footer>
 </body>
 <style>
     .material-symbols-outlined {

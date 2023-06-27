@@ -1,0 +1,103 @@
+.contacto{
+    background: #EAF2FD;
+    width: 100%;
+}
+
+.contacto__contenedor{
+    display: flex;
+    gap: 2rem;
+}
+
+.contacto__imagen{
+    width: 38rem;
+    height: 43rem;
+    flex-shrink: 0;
+    border-radius: 4px;
+    padding: 8rem 0 8rem 8rem;
+}
+
+.contacto__fomulario{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    gap: 1rem;
+    padding: 8rem 8rem 8rem 0;
+}
+
+.contacto__nombre, .contacto__email, .contacto__asunto, .contacto__mensaje{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin: 1rem 0;
+    padding: 0rem .5rem 0rem .5rem;
+    height: 45px;
+    justify-content: center;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.contacto__mensaje{
+    height: 11rem;
+    padding: 1rem .5rem 0 .5rem;
+    justify-content: flex-start;
+}
+
+.contacto__fomulario label{
+    color: #A2A2A2;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.formulario__nombre, .formulario__email, .formulario__asunto, .formulario__mensaje{
+    border: none;
+    margin-bottom: .2rem;
+    &:focus {
+        outline: none;
+    }
+
+    &:active{
+        outline: none;
+    }
+}
+
+.formulario__mensaje{
+    resize: none;
+}
+
+.contacto__fomulario__titulo{
+    color: #464646;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contacto__fomulario__texto{
+    color: #464646;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.formulario__boton{
+    display: block;
+    width: 30%;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+@media (min-width: 786px) and (max-width: 1180px){
+    .contacto__imagen{
+        display: none;
+    }
+    .contacto__fomulario{
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .contacto__imagen{
+        display: none;
+    }
+    .contacto__fomulario{
+        padding: 2rem;
+    }
+}
