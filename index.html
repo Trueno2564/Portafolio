@@ -23,12 +23,12 @@
             <h1 class="nombre">Brian Regalado</h1>
         </div>
         <ul class="menu">
-            <li class="menu__item"><a class="menu__link" href="">Sobre mi</a></li>
-            <li class="menu__item"><a class="menu__link" href="">Skills</a></li>
-            <li class="menu__item"><a class="menu__link" href="">Hobbies</a></li>
-            <li class="menu__item"><a class="menu__link" href="">Formacion</a></li>
-            <li class="menu__item"><a class="menu__link" href="">Proyectos</a></li>
-            <li class="menu__item"><a class="menu__link" href="">brianregalado2564@gmail</a></li>
+            <li class="menu__item"><a class="menu__link" href="#sobre__mi">Sobre mi</a></li>
+            <li class="menu__item"><a class="menu__link" href="#skills">Skills</a></li>
+            <li class="menu__item"><a class="menu__link" href="#hobbies">Hobbies</a></li>
+            <li class="menu__item"><a class="menu__link" href="#formacion">Formacion</a></li>
+            <li class="menu__item"><a class="menu__link" href="#experiencia">Proyectos</a></li>
+            <li class="menu__item"><a class="menu__link" href="#contacto">brianregalado2564@gmail</a></li>
         </ul>
     </header>
     <section class="presentacion">
@@ -48,13 +48,13 @@
         </div>
         <img src="media/foto.jpg" alt="" class="foto">
     </section>
-    <section class="sobre__mi">
+    <section class="sobre__mi" id="sobre__mi">
         <h3 class="sobre__mi__titulo">Sobre mi</h3>
         <p class="sobre__mi__texto">Soy un ingeniero en Mecatrónica con experiencia en el campo de: Diseño y modelado CAD con programas como Autodesk Inventor y Autodesk AutoCAD, en diseño y desarrollo de placas electrónicas con programas como , Eagle y Fusión 360, en programación de Arduino, ESP32, ESP8266, PIC entre otros microcontroladores, desarrollo FrontEnd con HTML, CSS y JavaScript, también poseo conocimientos básicos en Photoshop e Illustrator. Durante mi carrera, he tenido la oportunidad de trabajar en varios proyectos relacionados y he desarrollado habilidades técnicas que me permiten resolver problemas y tomar decisiones de manera efectiva. <br><br> Siempre me ha apasionado la tecnología y el desarrollo de soluciones innovadoras. Esto me ha llevado a participar en proyectos de investigación y desarrollo, lo que me ha permitido adquirir un conocimiento profundo y actualizado en mi campo de especialización.</p>
         <img src="media/firma.png" alt="firma" class="firma">
     </section>
     <section class="skills__hobbies">
-        <div class="tarjetas">
+        <div class="tarjetas" id="skills">
             <h3 class="skills__hobbies__titulo">Skills</h3>
             <ul class="skills__hobbies__list">
                 <li class="skills__hobbies__item">
@@ -83,7 +83,7 @@
                 </li>
             </ul>
         </div>
-        <div class="tarjetas">
+        <div class="tarjetas" id="hobbies">
             <h3 class="skills__hobbies__titulo">Hobbies</h3>
             <ul class="skills__hobbies__list">
                 <li class="skills__hobbies__item">
@@ -113,7 +113,7 @@
             </ul>
         </div>
     </section>
-    <section class="formacion">
+    <section class="formacion" id="formacion">
         <div class="formacion__contenedor">
             <h3 class="formacion__titulo">Formacion Academica</h3>
             <div class="formacion__lista">
@@ -141,7 +141,7 @@
             </div>
         </div>
     </section>
-    <section class="experiencia">
+    <section class="experiencia" id="experiencia">
         <h3 class="experiencia__titulo">Experiencia profesional</h3>
         <div class="experiencia__item">
             <img src="media/Prototipo.png" alt="Rehabilitador de tobillo" class="experiencia__imagen">
@@ -171,7 +171,7 @@
             </div>
         </div>
     </section>
-    <section class="contacto">
+    <section class="contacto" id="contacto">
         <div class="contacto__contenedor">
             <img src="media/pexels-negative-space-33999-scaled-2560x1280.jpg" alt="" class="contacto__imagen">
         <form action="" class="contacto__fomulario">
@@ -179,23 +179,24 @@
             <p class="contacto__fomulario__texto">¿Quieres contactarme? <br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
             <div class="contacto__nombre">
                 <label for="formulario__nombre">Nombre</label>
-                <input type="text" class="formulario__nombre">
+                <input type="text" class="formulario__nombre" required>
             </div>
             <div class="contacto__email">
                 <label for="formulario__nombre">Email</label>
-                <input type="email" class="formulario__email">
+                <input type="email" class="formulario__email" required>
             </div>
             <div class="contacto__asunto">
                 <label for="formulario__nombre">Asunto</label>
-                <input type="text" class="formulario__asunto">
+                <input type="text" class="formulario__asunto" required>
             </div>
             <div class="contacto__mensaje">
                 <label for="formulario__mensaje">Mensaje</label>
                 <textarea class="formulario__mensaje" name="" id="" cols="30" rows="10" ></textarea>
             </div>
-            <div class="boton formulario__boton">
+            <input type="submit" class="boton formulario__boton">
+            <!-- <div class="boton formulario__boton" >
                 <p>Enviar mensaje</p>
-            </div>
+            </div> -->
         </form>
         </div>
     </section>
