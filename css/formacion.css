@@ -95,7 +95,7 @@
     }
 }
 
-@media (min-width: 576px) and (max-width: 768px){
+@media (max-width: 768px){
     .formacion__lista{
         padding: 0 2rem;
         width: calc(100% - 4rem);

@@ -115,7 +115,7 @@
     }
 }
 
-@media (min-width: 576px) and (max-width: 768px){
+@media (max-width: 768px){
     .experiencia__item{
         flex-direction: column;
         padding: 2rem;
